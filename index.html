@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password-container">
+            <div class="password">123476593DAE</div>
+            <button class="password-copy">
+                <img src="copy.svg" alt="Copy Password">
+            </button>
+        </div>
+
+        <div class="options-container">
+            <div class="length-container">
+                <div class="text">Character Length</div>
+                <div class="length">10</div>
+            </div>
+
+            <input type="range" min="8" max="24" value="10" class="slider">
+
+            <div class="input-container">
+                <input type="checkbox" id="upper">
+                <div class="text">Include Uppercase Letters</div>
+            </div>
+
+            <div class="input-container">
+                <input type="checkbox" id="lower">
+                <div class="text">Include Lowercase Letters</div>
+            </div>
+
+            <div class="input-container">
+                <input type="checkbox" id="numbers">
+                <div class="text">Include Numbers</div>
+            </div>
+
+            <div class="input-container">
+                <input type="checkbox" id="symbols">
+                <div class="text">Include Symbols</div>
+            </div>
+
+            
+
+            <button class="btn-generate">GENERATE</button>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
