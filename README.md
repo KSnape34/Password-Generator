@@ -16,13 +16,14 @@
 
 ### Screenshot
 
-![Tip Calc](https://github.com/user-attachments/assets/88ac6969-1de4-46af-bdff-a4eff9badb08)
+
+![Pass Generator](https://github.com/user-attachments/assets/3ee21bd2-4277-4cf3-9782-a310929f853e)
+
 
 
 ### Links
 
-- Live Site URL: [Password Generator](https://ksnape34.github.io/Tip-Calculator/)
-- Solution URL: 
+- Live Site URL: [[Password Generator](https://ksnape34.github.io/Password-Generator/)
 
 ## My process
 
